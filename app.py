@@ -2,7 +2,6 @@ import streamlit as st
 import pickle  
 import numpy as np
 
-# Load the model and scaler
 model=pickle.load(open("C:/Users/maana/Downloads/Logistic_model.pkl", 'rb'))
 
 with open('scaler.pkl', 'rb') as scaler_file:
