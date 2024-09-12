@@ -97,6 +97,5 @@ import pickle
 with open('Logistic_model.pkl', 'wb') as model_file:
     pickle.dump(logreg, model_file)
 
-# Save the scaler as well
 with open('scaler.pkl', 'wb') as scaler_file:
     pickle.dump(scaler, scaler_file)
