@@ -91,3 +91,12 @@ grid_search.fit(X_train_scaled, y_train)
 
 # Best hyperparameters found by grid search
 print("Best Hyperparameters:", grid_search.best_params_)
+
+import pickle
+
+with open('Logistic_model.pkl', 'wb') as model_file:
+    pickle.dump(logreg, model_file)
+
+# Save the scaler as well
+with open('scaler.pkl', 'wb') as scaler_file:
+    pickle.dump(scaler, scaler_file)
