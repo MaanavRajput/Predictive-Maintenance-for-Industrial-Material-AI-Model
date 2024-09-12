@@ -1,0 +1,7 @@
+from sklearn.linear_model import LogisticRegression
+
+# Initialize the logistic regression model
+logreg = LogisticRegression()
+
+# Train the model on the training data
+logreg.fit(X_train_scaled, y_train)
