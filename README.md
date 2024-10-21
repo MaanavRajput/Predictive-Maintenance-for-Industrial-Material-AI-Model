@@ -1,9 +1,5 @@
 # Predictive-Maintenance-for-Industrial-Material-AI-Model
-TEAM: PUROHIT JOEL JOY          73042 92201
-      RAJPUT MAANAV NITIN       97693 86001
-      KABIR SAHANI              91365 42980
-      AYUSH TIWARI              72768 42423       
-
+     
 Introduction
 This project involves training an AI model to predict material failures. By analyzing the historical performance of materials, the model can identify patterns that lead to potential failures, improving predictive maintenance and reducing downtime.
 
@@ -48,5 +44,6 @@ The F1 score for the model was:
 
 Class 0 (No failure): F1 score = 0.99
 Class 1 (Failure): F1 score = 0.37
+
 
 
